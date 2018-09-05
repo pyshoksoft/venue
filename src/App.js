@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import Header from './components/Header';
 
 class App extends Component {
-  render() {
-    return (
-      <h1>
-        <div>
-        
-        </div>
-      </h1>
-    );
-  }
+	render() {
+		return (
+			<Header />
+		);
+	}
 }
 
 export default App;
