@@ -5,7 +5,9 @@ import Header from './components/Header';
 class App extends Component {
 	render() {
 		return (
-			<Header />
+			<div className="App" style={{height: '1200px', background: 'cornflowerblue'}}>
+				<Header />
+			</div>	
 		);
 	}
 }
