@@ -80,7 +80,7 @@ footer .footer_copyright {
 }
 
 .carrousel_image {
-    
+    height: 100vh;
     background-size: cover !important;
 }
 
