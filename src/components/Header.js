@@ -41,8 +41,7 @@ class Header extends Component {
                     backgroundColor: this.state.headerShow ? "#2f2f2f" : "transparent",
                     boxShadow: "none",
                     padding: "10px 0px"
-                }}
-            >
+                }}>
                 <ToolBar>
                     <div className="header_logo">
                         <div className="font_righteous header_logo_venue">The Venue</div>
@@ -51,8 +50,7 @@ class Header extends Component {
                     <IconButton
                         aria-label="Menu"
                         color="inherit"
-                        onClick={() => this.toggleDrawer(true)}
-                    >
+                        onClick={() => this.toggleDrawer(true)}>
                         <MenuIcon />
                     </IconButton>
                     <SideDrawer open={this.state.drawerOpen} onClose={v => this.toggleDrawer(v)} />
